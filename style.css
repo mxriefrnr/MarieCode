@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	margin:0px;
+	background-color: rgb(240,240,240);
+}
+
+.banner {
+	background-image:url(https://images.pexels.com/photos/4210860/pexels-photo-4210860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	height: 40vh;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner2 {
+	width: 1050px;
+	height: 350px;
+	margin: 78px;
+	padding: 59px;
+	background-position: center;
+	text-align: center;
+	border-radius: 7px;
+}
+
+
+.btn-blue {
+	color: white;
+	text-decoration: none;
+	background-color: purple;
+	padding: 16px;
+	border-radius: 7px;
+	font-family: Arial;
+	display: block;
+	width: 10%;
+	margin: 16px auto;
+}
+
+
+.banner h1, .banner h2 {
+	color: white;
+	font-family: Arial;
+}
+
+h1 {
+	padding-top: 55px;
+	margin: 0px;
+	color: white;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card {
+	background-color: white;
+	width: 280px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 7px;
+	box-shadow: 1px 1px 1px #00000066;
+	margin-left: 60px;
+}
+
+img {
+	height: 200px;
+    border-radius: 7px;
+}
+
+h2 {
+	font-family: Arial;
+	text-align: center;
+}
+
+
+li {
+	font-family: 'Quicksand';
+}
+
+.réseaux {
+	background-color: white;
+	width: 700px;
+	padding: 24px;
+	margin: 24px auto;
+	border-radius: 7px;
+	font-size: 75px;
+}
+
+h3 {
+	font-family: Lato;
+}
+
+.footer {
+	background-color: #a3e4d7;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	margin-left: -140px;
+	margin-right: -260px;
+}
+ 
+ h4 {
+ 	font-family: Lato;
+}
+
+p {
+	font-family: 'Quicksand';
+}
+
+
+
+
+
+
+
